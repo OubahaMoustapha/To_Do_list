@@ -58,13 +58,18 @@ body {
 ul li {
     margin-left: 40px;
     margin-right: 70px;
-    color:white ;
     font-size: 25px;
     cursor: pointer;
     transition: 0.5s;
 }
-ul li:hover {
+
+ul li a {
+    text-decoration: none;
+    color:white ;
+}
+ul li a:hover {
     color:rgb(70, 176, 181);
+
 }
 .container h1 {
     color: rgb(221, 240, 248);
@@ -83,6 +88,10 @@ ul li:hover {
     margin-top: 200px;
     height: auto;
     border-radius: 5px;
+}
+.home h2 {
+    text-align: center;
+    color: rgb(33, 231, 122);
 }
 .home .task {
     width: 80%;
